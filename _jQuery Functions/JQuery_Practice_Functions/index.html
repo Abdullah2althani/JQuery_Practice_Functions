@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>jQuery</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-1.10.2.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".addClass").click(function () {
+          $("#addClass").addClass("green");
+        });
+
+        $(".hide").click(function () {
+          $(".hide").hide();
+        });
+
+        $(".append").click(function () {
+          $("#append").append("<h2> My name Abdullah </h2>");
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1>addclass</h1>
+      <button id="addClass">addclass</button>
+      <p class="addClass">click the button to add class 'red' to this paragraph</p>
+      <hr />
+
+      <h1>hide</h1>
+      <button >hide</button>
+      <p class="hide">click the button to hide a hidden paragraph</p>
+      <hr />
+
+      <h1>Append</h1>
+      <button id="append">Append</button>
+      <p>click the button to Append new paragraph</p>
+      <hr />
+      <br />
+    </div>
+  </body>
+</html>

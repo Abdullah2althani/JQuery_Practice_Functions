@@ -1,0 +1,17 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body
+{
+	background-image: url('dough.jpg');
+	font-family: sans-serif;
+	display: inline-block;
+}
+
+img{
+	display: block;
+	width: 450px;
+	height: 250px;
+}

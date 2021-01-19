@@ -1,0 +1,29 @@
+<html>
+  <head>
+    <title>jQuery</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-1.10.2.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("img").on({
+          mouseover: function () {
+              this.src = "images.jpeg";
+            },
+            mouseout: function () {
+                this.src = "images1.jpg";
+          },
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+      <img src="images1.jpg"  alt="img 1" />
+      <img src="images1.jpg"  alt="img 1" />
+      <img src="images1.jpg"  alt="img 1" />
+    </div>
+  </body>
+</html>
